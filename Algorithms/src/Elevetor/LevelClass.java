@@ -17,7 +17,7 @@ public class LevelClass {
 		queue.add(6);
 		queue.add(9);
 		queue.add(1);
-		
+		System.out.println("Queue : "+queue);
 		for (int i=0; i<queue.size(); i++) {
 			int diff = Math.abs(queue.get(i)-curr);
 			System.out.println(diff);
