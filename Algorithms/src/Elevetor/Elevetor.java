@@ -63,6 +63,7 @@ public class Elevetor {
 				
 					Thread.sleep(1000);
 					i++;
+					
 				}
 				//System.out.println("XXX");
 				while (level<i) {
